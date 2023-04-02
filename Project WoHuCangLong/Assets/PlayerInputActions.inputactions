@@ -37,6 +37,61 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "2D Vector",
+                    "id": "2260dfbc-8cd0-4bc1-8182-d85827e9058d",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WavingWeapon",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "40d24afa-5e9c-4292-bb74-4f66e2e10d99",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "WavingWeapon",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "643f5aeb-03f5-4c47-96c4-94ceecd8680a",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "WavingWeapon",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "3460cffe-8f4f-4e36-9c18-ae45e14a79d1",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "WavingWeapon",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "c969dead-21dd-468d-82d7-78e90be28649",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "WavingWeapon",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "5c011320-6ade-4ea3-ad6b-510cdc3a131d",
                     "path": "<Gamepad>/leftStick",
@@ -64,7 +119,7 @@
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard&Mouse",
+                    "groups": "Keyboard",
                     "action": "Bending",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -75,7 +130,7 @@
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard&Mouse",
+                    "groups": "Keyboard",
                     "action": "Bending",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -86,7 +141,7 @@
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard&Mouse",
+                    "groups": "Keyboard",
                     "action": "Bending",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -97,7 +152,7 @@
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard&Mouse",
+                    "groups": "Keyboard",
                     "action": "Bending",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -118,8 +173,8 @@
             ]
         },
         {
-            "name": "Keyboard&Mouse",
-            "bindingGroup": "Keyboard&Mouse",
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
             "devices": [
                 {
                     "devicePath": "<Keyboard>",

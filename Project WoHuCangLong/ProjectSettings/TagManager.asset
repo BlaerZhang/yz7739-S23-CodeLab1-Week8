@@ -4,8 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Player 1 Body
-  - Player 2 Body
+  - Player 1 Upper Body
+  - Player 1 Lower Body
+  - Player 2 Lower Body
+  - Player 2 Upper Body
+  - Ground
+  - Player 1 Weapon
+  - Player 2 Weapon
   layers:
   - Default
   - TransparentFX
@@ -13,15 +18,15 @@ TagManager:
   - 
   - Water
   - UI
-  - Player 1 Body
+  - Player 1 Upper Body
+  - Player 1 Lower Body
   - Player 1 Weapon
   - Player 1 Bamboo
-  - Player 2 Body
+  - Player 2 Upper Body
+  - Player 2 Lower Body
   - Player 2 Weapon
   - Player 2 Bamboo
-  - Player 1 Rotation
-  - Player 2 Rotation
-  - 
+  - Ground
   - 
   - 
   - 
